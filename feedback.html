@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>יחידת הבט</title>
+        <meta charset="UTF-8">
+		
+        <script> 
+
+            
+            function Init()
+            {
+				// לשנות את ה ID 
+			   var id = "id=XXXX";
+				
+				// לא לגעת
+               var scr = "https://portal.army.idf/sites/hebet/website/product_feedback_form/index.html?";
+			   var end = "&source=product";
+			   window.location.assign(scr + id + end);
+            }
+            
+
+        </script>
+    </head>
+    <body onload="Init()">
+			<iframe width='100%' height="100%" scrolling="no" style="border:none" name="thisistheiframe" onload="this.contentWindow.focus()" allowfullscreen="true" webkitallowfullscreen="true" mozaallowfullscreen="true" id="content"></iframe>
+    </body>
+    
+</html>
+    
+    
